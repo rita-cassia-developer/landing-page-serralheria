@@ -6,6 +6,8 @@ Possui botão direto para o WhatsApp do dono da serralheria para facilitar a int
 
 **Veja o projeto:** [https://rita-cassia-developer.github.io/landing-page-serralheria/]
 
+Eu me preocupo com **acessibilidade e boas práticas**, portanto o projeto foi testado e aprovado pela **W3C.**
+
 ---
 🧠 **O QUE ESTE PROJETO REPRESENTA?**
 

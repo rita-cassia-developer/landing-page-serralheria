@@ -2,6 +2,10 @@
 
 Este é um projeto para um comércio local que desenvolvi para consolidar meus estudos em desenvolvimento Web. 
 
+Possui botão direto para o WhatsApp do dono da serralheria para facilitar a interação de novos clientes e trazer praticidade.
+
+**Veja o projeto:** [https://rita-cassia-developer.github.io/landing-page-serralheria/]
+
 ---
 🧠 **O QUE ESTE PROJETO REPRESENTA?**
 

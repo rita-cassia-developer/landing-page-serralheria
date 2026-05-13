@@ -61,7 +61,9 @@ nav {
     transform: scale(1.02);
 }
 
-
+.services {
+        text-align: center;
+}
 
 .grid-services {
     display: grid;

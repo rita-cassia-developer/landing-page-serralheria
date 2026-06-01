@@ -1,40 +1,62 @@
-🚀 **LANDING PAGE COMERCIAL - SERRALHERIA METAL & DESIGN**
+# 🚀 Landing Page Comercial - Serralheria Metal & Design
 
-Este é um projeto para um comércio local que desenvolvi para consolidar meus estudos em desenvolvimento Web. 
+![Status](https://img.shields.io/badge/Status-Concluído-brightgreen)
 
-Possui botão direto para o WhatsApp do dono da serralheria para facilitar a interação de novos clientes e trazer praticidade.
+## 📝 Descrição do Projeto
 
-**Veja o projeto:** [https://rita-cassia-developer.github.io/landing-page-serralheria/]
+Este projeto é uma **landing page comercial** desenvolvida para a "Serralheria Metal & Design", um comércio local. O objetivo foi criar uma interface profissional e funcional para consolidar estudos em desenvolvimento web, proporcionando praticidade tanto para o dono do negócio quanto para seus clientes. O site inclui uma integração direta com o **WhatsApp**, facilitando o contato e a conversão de novos clientes.
 
-Eu me preocupo com **acessibilidade e boas práticas**, portanto o projeto foi testado e aprovado pela **W3C.**
+## ✨ Funcionalidades
 
----
-🧠 **O QUE ESTE PROJETO REPRESENTA?**
+*   **Design Responsivo:** Otimizado para visualização em dispositivos móveis e desktops, utilizando técnicas de Flexbox.
+*   **Integração com WhatsApp:** Botão de ação direta para facilitar a comunicação instantânea com o proprietário.
+*   **Acessibilidade (WCAG):** Desenvolvido com foco em boas práticas de acessibilidade, garantindo que o conteúdo seja acessível a todos.
+*   **SEO Básico:** Estrutura semântica para melhor indexação em motores de busca.
+*   **Verificação Google:** Inclui arquivo de verificação para ferramentas de webmaster.
 
-Ele representa um marco importante na minha transição de carreira e no meu aprendizado prático.
+## 🛠️ Tecnologias Utilizadas
 
-A estrutura deste site foi construída com HTML5, que aprendi de forma autodidata, buscando entender a semântica e a organização das páginas por conta própria.
+*   **HTML5:** Estrutura semântica aprendida de forma autodidata, focando na organização lógica do conteúdo.
+*   **CSS3:** Estilização avançada aprimorada no SENAC, aplicando conceitos de layout moderno e design responsivo.
+*   **Flexbox:** Utilizado para criar um layout flexível e adaptável.
+*   **Boas Práticas:** Código validado e aprovado pelos padrões da **W3C**.
 
-Já toda a parte visual e de estilização foi aprimorada através das aulas presenciais no SENAC, onde mergulhei no universo do CSS3. 
+## 🌐 Demonstração
 
-Durante o curso, pude aplicar conceitos como: 
+Confira o projeto online:
 
-**Flexbox e Layouts Responsivos** (para o site ficar bonito no PC e no celular);
+[**Acesse a Landing Page da Serralheria**](https://rita-cassia-developer.github.io/landing-page-serralheria/)
 
-**Estilização moderna e boas práticas de design**
+## ⚙️ Como Rodar o Projeto Localmente
 
-**Organização de código para facilitar a manutenção**
+1.  **Clone o repositório:**
+    ```bash
+    git clone https://github.com/rita-cassia-developer/landing-page-serralheria.git
+    ```
+2.  **Navegue até a pasta:**
+    ```bash
+    cd landing-page-serralheria
+    ```
+3.  **Abra o `index.html`:**
+    Arraste o arquivo para o seu navegador preferido.
 
----
-🛠️ **TECNOLOGIAS UTILIZADAS**
+## 🧠 O que este projeto representa?
 
-**HTML5** (Estrutura semântica aprendida de forma autodidata)
+Este projeto marca uma etapa crucial na minha transição de carreira. Ele une o conhecimento de base aprendido de forma **autodidata** (HTML5) com o refinamento técnico adquirido nas aulas presenciais do **SENAC** (CSS3). Representa minha dedicação em construir bases sólidas antes de avançar para tecnologias mais complexas.
 
-**CSS3** (Estilização avançada desenvolvida no SENAC)
+## ✅ Qualidade e Conformidade
 
----
-🎯**OBJETIVO**
+*   **Validação W3C:** Código testado e aprovado.
+*   **Acessibilidade:** Preocupação real com a inclusão digital.
+*   **Clean Code:** Organização pensada para facilitar futuras manutenções.
 
-O objetivo principal foi criar uma interface que não seja apenas bonita, mas funcional e bem estruturada. 
+## 🤝 Contribuição
 
-Este projeto é um reflexo da minha dedicação em aprender o básico com solidez antes de partir para frameworks mais complexos.
+Feedbacks são sempre bem-vindos! Sinta-se à vontade para abrir uma *issue* ou enviar um *pull request*.
+
+## 👤 Autor
+
+**Rita de Cássia Calixto**
+
+*   [GitHub](https://github.com/rita-cassia-developer)
+*   [LinkedIn](https://www.linkedin.com/in/rita-de-cassia99/)

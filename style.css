@@ -2,29 +2,57 @@
     --primary: #d32f2f; 
     --dark: #212121;
     --light: #ffffff;
-    --gray: #f4f4f4;
+    --gray-bg: #f4f4f4;
+    --text-muted: #555555;
+    --border-color: #444444;
+    --whatsapp: #25d366;
+    --whatsapp-hover: #128c7e;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+    font-size: 14px;
 }
 
 body {
     font-family: 'Arial', sans-serif; 
-    margin: 0; 
     color: var(--dark); 
-    background: var(--gray); 
+    background: var(--gray-bg); 
+    overflow-x: hidden;
 }
-
 
 nav {
     display: flex;
-    justify-content: space-between;
+    flex-direction: column;
     align-items: center;
-    padding: 15px 5%;
+    gap: 15px;
+    padding: 20px 5%;
     background: var(--dark);
     color: var(--light);
+    text-align: center;
 }
 
+nav a {
+    color: var(--light);
+    text-decoration: none;
+    font-weight: bold;
+    margin: 5px 0;
+    transition: color 0.3s;
+}
+
+nav a:hover {
+    color: var(--primary);
+}
 
 .hero {
-    height: 60vh;
+    height: 50vh;
+    min-height: 400px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -32,24 +60,26 @@ nav {
     text-align: center;
     background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url('foto3.jpg');
     background-size: cover;
-    color: white;
-    padding: 0 10%;
+    background-position: center;
+    color: var(--light);
+    padding: 0 5%;
 }
+
 .galeria-container {
-    padding: 60px 5%;
-    background: #fff;
+    padding: 40px 5%;
+    background: var(--light);
     text-align: center;
 }
 
 .grid-galeria {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-template-columns: 1fr;
     gap: 15px;
 }
 
 .foto-card img {
     width: 100%;
-    height: 250px;
+    height: 200px;
     object-fit: cover; 
     border-radius: 8px;
     filter: grayscale(30%); 
@@ -62,18 +92,18 @@ nav {
 }
 
 .services {
-        text-align: center;
+    text-align: center;
 }
 
 .grid-services {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); 
+    grid-template-columns: 1fr; 
     gap: 25px;
     padding: 40px 5%;
 }
 
 .card-item {
-    background: white;
+    background: var(--light);
     padding: 30px; 
     border-radius: 8px;
     box-shadow: 0 4px 10px rgba(0,0,0,0.1);
@@ -84,6 +114,10 @@ nav {
     justify-content: space-between;
 }
 
+.card-icon {
+    font-size: 3rem;
+    margin-bottom: 15px;
+}
 
 .card-item ul {
     list-style: none;
@@ -95,23 +129,17 @@ nav {
 .card-item li {
     margin-bottom: 10px;
     font-size: 0.95rem;
-    color: #555;
+    color: var(--text-muted);
 }
-
-.card-icon {
-    font-size: 3rem;
-    margin-bottom: 15px;
-}
-
 
 .cta-main {
-    background-color: #25d366; 
-    color: white;
-    padding: 18px 35px; 
+    background-color: var(--whatsapp); 
+    color: var(--light);
+    padding: 15px 28px; 
     text-decoration: none;
     border-radius: 50px;
     font-weight: bold;
-    font-size: 1.1rem;
+    font-size: 1rem;
     margin-top: 25px;
     display: inline-block; 
     box-shadow: 0 4px 15px rgba(37, 211, 102, 0.3); 
@@ -119,18 +147,34 @@ nav {
 }
 
 .cta-main:hover {
-    background-color: #128c7e; 
+    background-color: var(--whatsapp-hover); 
     transform: scale(1.05); 
 }
 
+.btn-saiba-mais {
+    display: inline-block;
+    padding: 12px 20px;
+    background-color: var(--whatsapp); 
+    color: var(--light);
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: 0.3s;
+    margin-top: 15px;
+    border: none; 
+}
+
+.btn-saiba-mais:hover {
+    background-color: var(--whatsapp-hover);
+}
 
 .whatsapp-float {
     position: fixed; 
-    width: 60px;
-    height: 60px;
-    bottom: 40px;
-    right: 40px;
-    background-color: #25d366;
+    width: 50px;
+    height: 50px;
+    bottom: 20px;
+    right: 20px;
+    background-color: var(--whatsapp);
     border-radius: 50px;
     box-shadow: 2px 2px 10px rgba(0,0,0,0.3);
     z-index: 1000;
@@ -146,39 +190,12 @@ nav {
 }
 
 .whatsapp-float img {
-    width: 35px;
-    height: 35px;
+    width: 28px;
+    height: 28px;
     display: block;
     object-fit: contain;
 }
-.btn-saiba-mais {
-    display: inline-block;
-    padding: 12px 20px;
-    background-color: #25d366; 
-    color: white;
-    text-decoration: none;
-    border-radius: 5px;
-    font-weight: bold;
-    transition: 0.3s;
-    margin-top: 15px;
-    border: none; 
-}
 
-.btn-saiba-mais:hover {
-    background-color: #128c7e;
-
-}
-
-nav a {
-    color: white;
-    text-decoration: none;
-    font-weight: bold;
-    margin-left: 20px;
-}
-
-nav a:hover {
-    color: var(--primary);
-}
 .main-footer {
     background-color: var(--dark);
     color: var(--light);
@@ -188,9 +205,9 @@ nav a:hover {
 
 .footer-content {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-template-columns: 1fr;
     gap: 40px;
-    border-bottom: 1px solid #444;
+    border-bottom: 1px solid var(--border-color);
     padding-bottom: 30px;
 }
 
@@ -230,3 +247,64 @@ nav a:hover {
     font-size: 0.8rem;
 }
 
+@media (min-width: 360px) {
+    html {
+        font-size: 16px;
+    }
+}
+
+@media (min-width: 768px) {
+    nav {
+        flex-direction: row;
+        justify-content: space-between;
+        padding: 15px 5%;
+    }
+
+    nav a {
+        margin-left: 20px;
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+
+    .hero {
+        height: 60vh;
+        padding: 0 10%;
+    }
+
+    .galeria-container {
+        padding: 60px 5%;
+    }
+
+    .grid-galeria {
+        grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    }
+
+    .foto-card img {
+        height: 250px;
+    }
+
+    .grid-services {
+        grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); 
+    }
+
+    .cta-main {
+        padding: 18px 35px;
+        font-size: 1.1rem;
+    }
+
+    .whatsapp-float {
+        width: 60px;
+        height: 60px;
+        bottom: 40px;
+        right: 40px;
+    }
+
+    .whatsapp-float img {
+        width: 35px;
+        height: 35px;
+    }
+
+    .footer-content {
+        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    }
+}

@@ -54,7 +54,7 @@ Este projeto marca uma etapa crucial na minha transição de carreira. Ele une o
 
 Feedbacks são sempre bem-vindos! Sinta-se à vontade para abrir uma *issue* ou enviar um *pull request*.
 
-## 👤 Autor
+## 👤 Autora
 
 **Rita de Cássia Calixto**
 

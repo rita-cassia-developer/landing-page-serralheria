@@ -11,8 +11,12 @@
 <body>
 
     <header>
-        <nav>
-            <h1>🛠️ Serralheria Metal & Design</h1>
+        <nav aria-label="Navegação principal">
+            <a href="/" class="logo" aria-label="Ir para a página inicial">
+                <img src="/img/logo.png" alt="Logo do Site">
+                <span>Serralheria Metal & Design</span>
+            </a>
+
             <ul class="nav-links">
                 <li><a href="#home">Home</a></li>
                 <li><a href="#galeria">Galeria</a></li>
@@ -26,7 +30,7 @@
     <main>
         <section id="home" class="hero">
             <h1>Serviços de Serralheria do Pequeno ao Grande Porte</h1>
-            <h2>Portões, grades e estruturas com qualidade e rapidez.</h2>
+            <p>Portões, grades e estruturas com qualidade e rapidez.</p>
             <a href="whatsapp://send?phone=5543996188225&text=Olá!%20Gostaria%20de%20um%20orçamento."
                 class="cta-main">Fazer orçamento sem compromisso</a>
         </section>
@@ -35,15 +39,18 @@
             <h2>Excelência em cada detalhe</h2>
             <div class="grid-galeria">
                 <div class="foto-card">
-                    <img src="https://images.pexels.com/photos/9665376/pexels-photo-9665376.jpeg" alt="Lixadeira de metal realizando acabamento">
+                    <img src="https://images.pexels.com/photos/9665376/pexels-photo-9665376.jpeg"
+                        alt="Lixadeira de metal realizando acabamento">
                     <p>Acabamento Impecável</p>
                 </div>
                 <div class="foto-card">
-                    <img src="https://images.pexels.com/photos/30790481/pexels-photo-30790481.jpeg" alt="Detalhe de soldagem profissional">
+                    <img src="https://images.pexels.com/photos/30790481/pexels-photo-30790481.jpeg"
+                        alt="Detalhe de soldagem profissional em estrutura de ferro">
                     <p>Solda Industrial de Alta Resistência</p>
                 </div>
                 <div class="foto-card">
-                    <img src="https://images.pexels.com/photos/19825178/pexels-photo-19825178.jpeg" alt="Material de aço">
+                    <img src="https://images.pexels.com/photos/19825178/pexels-photo-19825178.jpeg"
+                        alt="Material de aço">
                     <p>Matéria-prima de Primeira Linha</p>
                 </div>
             </div>
@@ -53,68 +60,66 @@
             <h2>Nossos Serviços</h2>
             <div class="grid-services">
                 <article class="card-item">
-                    <div class="card-icon">🔧</div>
-                    <h3>Pequenos Consertos</h3>
-                    <ul>
-                        <li>✅ Troca de roldanas</li>
-                        <li>✅ Soldas em geral</li>
-                        <li>✅ Ajustes de fechaduras</li>
+                    <h3>Pequenos Consertos e Manutenções</h3>
+                    <ul class="lista-check">
+                        <li>Manutenção de portão que arrasta ou trava</li>
+                        <li>Troca de fechaduras e travas de segurança</li>
+                        <li>Soldas e reparos em móveis de ferro</li>
+                        <li>Substituição de roldanas e guias de portão</li>
+                        <li>Tratamento e pintura de ferro enferrujado</li>
                     </ul>
-                    <a href="whatsapp://send?phone=5543996188225&text=Olá!%20Quero%20saber%20mais%20sobre%20Pequenos%20Consertos."
-                        class="btn-saiba-mais">Ver detalhes</a>
                 </article>
 
                 <article class="card-item">
-                    <div class="card-icon">🏠</div>
-                    <h3>Portões e Grades</h3>
-                    <ul>
-                        <li>✅ Portões Basculantes</li>
-                        <li>✅ Grades de Proteção</li>
-                        <li>✅ Corrimãos</li>
+                    <h3>Portões, Grades e Proteções</h3>
+                    <ul class="lista-check">
+                        <li>Fabricação e instalação de portão automático</li>
+                        <li>Grades de proteção em ferro para janelas</li>
+                        <li>Grades e portões para cercamento de pets</li>
+                        <li>Corrimão e guarda-corpo para escadas e rampas</li>
+                        <li>Portão basculante para garagem residencial</li>
                     </ul>
-                    <a href="whatsapp://send?phone=5543996188225&text=Olá!%20Quero%20saber%20mais%20sobre%20Portões%20e%20Grades."
-                        class="btn-saiba-mais">Ver detalhes</a>
                 </article>
 
                 <article class="card-item">
-                    <div class="card-icon">🏗️</div>
                     <h3>Grandes Estruturas</h3>
-                    <ul>
-                        <li>✅ Mezaninos</li>
-                        <li>✅ Coberturas Metálicas</li>
-                        <li>✅ Galpões</li>
+                    <ul class="lista-check">
+                        <li>Mezanino metálico para ampliação de espaço</li>
+                        <li>Cobertura de ferro para garagem e veículos</li>
+                        <li>Fabricação e montagem de telhado para galpão</li>
+                        <li>Estruturas de ferro elevadas para caixa d'água</li>
+                        <li>Coberturas metálicas para área de churrasqueira</li>
                     </ul>
-                    <a href="whatsapp://send?phone=5543996188225&text=Olá!%20Quero%20saber%20mais%20sobre%20Grandes%20Estruturas."
-                        class="btn-saiba-mais">Ver detalhes</a>
                 </article>
             </div>
         </section>
     </main>
 
     <footer class="main-footer">
-        <div class="footer-content">
-            <h4 id="sobre">Sobre Nós</h4>
+        <section id="sobre" class="footer-content">
+            <h3>Sobre Nós</h3>
             <p>Com mais de 2 anos de experiência, a Serralheria Metal & Design é referência em serviços de soldagem e
                 serralheria na região de Califórnia. Nossa empresa é composta por profissionais altamente qualificados,
                 comprometidos em entregar soluções personalizadas para cada cliente.</p>
             <p>Qualidade e confiança em cada solda.</p>
             <p>Atendendo Califórnia e região.</p>
-            </div>
-            <div class="footer-center">
-            <h4 id="contato">Contato</h4>
-            <p>👨‍🏭 Ryan Pereira</p>
-            <p>📞 (43) 99618-8225</p>
-            <p>📍 Califórnia - Paraná</p>
-        </div>
+        </section>
+        <section id="contato" class="footer-center">
+            <h3>Contato</h3>
+            <p>Ryan Pereira</p>
+            <p>(43) 99618-8225</p>
+            <p>Califórnia - Paraná</p>
+        </section>
 
         <div class="footer-bottom">
             <p>&copy; 2026 Serralheria Metal & Design - Todos os direitos reservados.</p>
         </div>
     </footer>
 
-    <a href="whatsapp://send?phone=5543996188225&text=Olá!%20Gostaria%20de%20um%20orçamento." class="whatsapp-float">
+    <a href="whatsapp://send?phone=5543996188225&text=Olá!%20Gostaria%20de%20um%20orçamento." class="whatsapp-float"
+        aria-label="Enviar mensagem para o WhatsApp da Serralheria">
         <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/WhatsApp_Logo_green.svg/250px-WhatsApp_Logo_green.svg.png"
-            alt="Chamar no WhatsApp">
+            aria-hidden="true" alt="">
     </a>
 
 </body>

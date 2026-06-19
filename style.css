@@ -337,11 +337,10 @@ p {
     }
 
     .main-footer {
-        grid-template-columns: 1fr 1fr;
+        grid-template-columns: 1fr;
     }
 
-    .footer-content,
-    .footer-center {
+    .footer-content {
         border-bottom: none;
         padding-bottom: 0;
     }

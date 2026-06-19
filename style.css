@@ -156,17 +156,19 @@ p {
     padding-top: 20px;
 }
 
-
 .services h2 {
     margin-top: 20px;
 }
-
 
 .grid-services {
     display: grid;
     grid-template-columns: 1fr;
     gap: 25px;
     padding: 40px 5%;
+}
+
+.card-item:hover {
+    transform: scale(1.03);
 }
 
 .card-item {
@@ -217,7 +219,16 @@ p {
     transform: scale(1.05);
 }
 
+.info h2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
+.info p {
+    color: var(--dark);
+    padding: 10px;
+}
 
 .whatsapp-float {
     position: fixed;
@@ -257,13 +268,20 @@ p {
     margin-top: 50px;
 }
 
-.footer-content p,
-.footer-center p {
-    color: #cccc; 
+.footer-content p {
+    color: #cccc;
 }
 
-.footer-content,
-.footer-center {
+.footer-content a {
+    color: #cccc;
+    text-decoration: none;
+}
+
+.footer-content a:hover {
+    background-color: var(--border-color);
+}
+
+.footer-content {
     border-bottom: 1px solid var(--border-color);
     padding-bottom: 20px;
 }

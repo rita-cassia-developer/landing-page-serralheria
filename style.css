@@ -108,7 +108,7 @@ p {
     justify-content: center;
     align-items: center;
     text-align: center;
-    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('https://images.pexels.com/photos/16243157/pexels-photo-16243157.jpeg');
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('pexels-fundo.webp');
     background-size: cover;
     background-position: center;
     color: var(--light);
